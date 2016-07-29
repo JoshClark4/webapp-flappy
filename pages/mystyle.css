@@ -1,0 +1,142 @@
+root {
+    display: block;
+}
+
+body{
+    padding: 0;
+    margin: auto;
+    overflow-y: scroll;
+    font-family: Arial;
+    width: 980px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+  font-family: Arial;
+  text-decoration: underline;
+}
+
+#scores{
+  margin-left: -2%;
+}
+
+#header{
+    text-align: center;
+    text-indent: 30px;
+    font-size: 20px;
+    color: #ccc;
+    margin: 0;
+    background-color: #222;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#header u{
+    text-decoration-color: #099;
+}
+
+#main{
+    margin: 15px;
+}
+
+#main img{
+    padding: 10px;
+}
+
+#gamearea{
+    position:relative;
+    top: 10px;
+}
+
+
+
+#footer{
+    margin: 0px;
+    clear: all;
+    background-color: #222;
+    color: #ccc;
+    padding: 5px;
+    position: relative;
+    top: 25px;
+}
+
+#nav{
+    font-size: 18px;
+    background-color: #222;
+    margin: 0;
+    font: HandelGotDBol;
+}
+
+#nav_wrapper{
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color: #333;
+}
+
+#nav ul li img{
+    vertical-align: middle;
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+
+#nav .contact{
+    min-width: 119px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+#nav ul ul li a,visited{
+    color: #ccc;
+}
+
+#nav ul ul li a:hover{
+    color: #099;
+}
+
+#content ul{
+    text-decoration: none;
+    list-style-type: decimal;
+}

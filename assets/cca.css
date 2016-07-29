@@ -45,6 +45,7 @@ body {
     -o-background-size: cover;
     background: url('flappy-footer.png') top center no-repeat;
     background-size: 100%;
+    clear: both;
 }
 #footer p{
     color: white;
@@ -60,8 +61,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    float: center;
+}
+
+#reload {
+    float: right;
 }
 
 #logo {
     width: 220px;
 }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
